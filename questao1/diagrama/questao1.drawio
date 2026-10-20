@@ -1,0 +1,133 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="Q9W8n4cE3wrs7t1twthO">
+    <mxGraphModel dx="1961" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-1" parent="1" style="html=1;whiteSpace=wrap;fillColor=#b1ddf0;strokeColor=#10739e;" value="«interface»&lt;br&gt;&lt;b&gt;Passagem&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="255" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-2" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="PassagemAerea" vertex="1">
+          <mxGeometry height="100" width="160" x="-90" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-3" parent="p3Vx5xEpBrv1PHN0jQWV-2" style="text;strokeColor=#10739e;fillColor=#b1ddf0;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ tarifa: double" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-4" parent="p3Vx5xEpBrv1PHN0jQWV-2" style="line;strokeWidth=1;fillColor=#b1ddf0;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#10739e;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-5" parent="p3Vx5xEpBrv1PHN0jQWV-2" style="text;strokeColor=#10739e;fillColor=#b1ddf0;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ calcular(): double&lt;div&gt;+ imprimir(): void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-12" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="PassagemFerroviaria" vertex="1">
+          <mxGeometry height="100" width="160" x="570" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-13" parent="p3Vx5xEpBrv1PHN0jQWV-12" style="text;strokeColor=#10739e;fillColor=#b1ddf0;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ tarifa: double" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-14" parent="p3Vx5xEpBrv1PHN0jQWV-12" style="line;strokeWidth=1;fillColor=#b1ddf0;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#10739e;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-15" parent="p3Vx5xEpBrv1PHN0jQWV-12" style="text;strokeColor=#10739e;fillColor=#b1ddf0;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ calcular(): double&lt;div&gt;+ imprimir(): void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-18" edge="1" parent="1" source="p3Vx5xEpBrv1PHN0jQWV-12" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=gap;exitX=0.552;exitY=0.001;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#b1ddf0;strokeColor=#10739e;" target="p3Vx5xEpBrv1PHN0jQWV-1" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="270" y="480" as="sourcePoint" />
+            <mxPoint x="430" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-19" edge="1" parent="1" source="p3Vx5xEpBrv1PHN0jQWV-2" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=gap;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#b1ddf0;strokeColor=#10739e;" target="p3Vx5xEpBrv1PHN0jQWV-1" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="378" y="525" as="sourcePoint" />
+            <mxPoint x="200" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-20" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="PassagemRodoviaria" vertex="1">
+          <mxGeometry height="100" width="160" x="300" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-21" parent="p3Vx5xEpBrv1PHN0jQWV-20" style="text;strokeColor=#10739e;fillColor=#b1ddf0;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ tarifa: double" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-22" parent="p3Vx5xEpBrv1PHN0jQWV-20" style="line;strokeWidth=1;fillColor=#b1ddf0;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#10739e;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-23" parent="p3Vx5xEpBrv1PHN0jQWV-20" style="text;strokeColor=#10739e;fillColor=#b1ddf0;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ calcular(): double&lt;div&gt;+ imprimir(): void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-24" edge="1" parent="1" source="p3Vx5xEpBrv1PHN0jQWV-20" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=gap;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#b1ddf0;strokeColor=#10739e;" target="p3Vx5xEpBrv1PHN0jQWV-1" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="290" y="525" as="sourcePoint" />
+            <mxPoint x="410" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-25" parent="1" style="html=1;whiteSpace=wrap;fillColor=#b1ddf0;strokeColor=#10739e;" value="«interface»&lt;br&gt;&lt;b&gt;PassagemFactory&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="240" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-26" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="PassagemFerroviariaFactory" vertex="1">
+          <mxGeometry height="84" width="160" x="450" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-28" parent="p3Vx5xEpBrv1PHN0jQWV-26" style="line;strokeWidth=1;fillColor=#b1ddf0;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#10739e;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-29" parent="p3Vx5xEpBrv1PHN0jQWV-26" style="text;strokeColor=#10739e;fillColor=#b1ddf0;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ criarPassagem(double): PassagemFerroviaria" vertex="1">
+          <mxGeometry height="50" width="160" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-32" edge="1" parent="1" source="p3Vx5xEpBrv1PHN0jQWV-29" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=gap;exitX=0.506;exitY=1.035;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#b1ddf0;strokeColor=#10739e;" target="p3Vx5xEpBrv1PHN0jQWV-12" value="Use">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="380" y="290" as="sourcePoint" />
+            <mxPoint x="540" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-33" edge="1" parent="1" source="p3Vx5xEpBrv1PHN0jQWV-29" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=gap;exitX=-0.02;exitY=0.003;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#b1ddf0;strokeColor=#10739e;" target="p3Vx5xEpBrv1PHN0jQWV-25" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="450" y="120" as="sourcePoint" />
+            <mxPoint x="272" y="-15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-36" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="PassagemAereaFactory" vertex="1">
+          <mxGeometry height="84" width="180" x="10" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-37" parent="p3Vx5xEpBrv1PHN0jQWV-36" style="line;strokeWidth=1;fillColor=#b1ddf0;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#10739e;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-38" parent="p3Vx5xEpBrv1PHN0jQWV-36" style="text;strokeColor=#10739e;fillColor=#b1ddf0;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ criarPassagem(double): PassagemAerea" vertex="1">
+          <mxGeometry height="50" width="180" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-39" edge="1" parent="1" source="p3Vx5xEpBrv1PHN0jQWV-36" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=gap;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#b1ddf0;strokeColor=#10739e;" target="p3Vx5xEpBrv1PHN0jQWV-2" value="Use">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="251" y="240" as="sourcePoint" />
+            <mxPoint x="250" y="504" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-40" edge="1" parent="1" source="p3Vx5xEpBrv1PHN0jQWV-38" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=gap;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#b1ddf0;strokeColor=#10739e;" target="p3Vx5xEpBrv1PHN0jQWV-25" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="307" y="188" as="sourcePoint" />
+            <mxPoint x="190" y="104" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-41" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="PassagemRodoviariaFactory" vertex="1">
+          <mxGeometry height="84" width="160" x="230" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-42" parent="p3Vx5xEpBrv1PHN0jQWV-41" style="line;strokeWidth=1;fillColor=#b1ddf0;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#10739e;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-43" parent="p3Vx5xEpBrv1PHN0jQWV-41" style="text;strokeColor=#10739e;fillColor=#b1ddf0;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ criarPassagem(double): PassagemRodoviaria" vertex="1">
+          <mxGeometry height="50" width="160" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-44" edge="1" parent="1" source="p3Vx5xEpBrv1PHN0jQWV-41" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=gap;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.639;entryY=1.059;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#b1ddf0;strokeColor=#10739e;" target="p3Vx5xEpBrv1PHN0jQWV-25" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="290" y="203" as="sourcePoint" />
+            <mxPoint x="395" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p3Vx5xEpBrv1PHN0jQWV-46" edge="1" parent="1" source="p3Vx5xEpBrv1PHN0jQWV-43" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=gap;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#b1ddf0;strokeColor=#10739e;" target="p3Vx5xEpBrv1PHN0jQWV-20" value="Use">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="570" y="320" as="sourcePoint" />
+            <mxPoint x="671" y="609" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
